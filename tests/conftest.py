@@ -2,12 +2,12 @@ import pytest
 import json
 from tests import app
 
-
+# Fixture to provide the Flask test client for sending simulated HTTP requests
 @pytest.fixture
 def client():
     return app.test_client()
 
-
+# Fixture to simulate headers for Student 1
 @pytest.fixture
 def h_student_1():
     headers = {
@@ -19,7 +19,7 @@ def h_student_1():
 
     return headers
 
-
+# Fixture to simulate headers for Student 2
 @pytest.fixture
 def h_student_2():
     headers = {
@@ -31,7 +31,7 @@ def h_student_2():
 
     return headers
 
-
+# Fixture to simulate headers for Teacher 1
 @pytest.fixture
 def h_teacher_1():
     headers = {
@@ -43,7 +43,7 @@ def h_teacher_1():
 
     return headers
 
-
+# Fixture to simulate headers for Teacher 2
 @pytest.fixture
 def h_teacher_2():
     headers = {
@@ -55,7 +55,7 @@ def h_teacher_2():
 
     return headers
 
-
+# Fixture to simulate headers for the Principal
 @pytest.fixture
 def h_principal():
     headers = {
@@ -64,5 +64,6 @@ def h_principal():
             'user_id': 5
         })
     }
-
+    
+# Return the constructed headers
     return headers

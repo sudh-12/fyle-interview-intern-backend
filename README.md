@@ -9,7 +9,7 @@ Successfully completed the assignment received by FYLE for Backend Intern positi
 
 ### Steps to run docker-compose 
 
-```
+```bash
   cd fyle-interview-intern-backend
 # Check if docker compose is installed , or install it
   sudo apt-get install docker-compose

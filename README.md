@@ -10,17 +10,17 @@ Successfully completed the assignment received by FYLE for Backend Intern positi
 ### Steps to run docker-compose 
 
 ```
-- cd fyle-interview-intern-backend
-Check if docker compose is installed , or install it
--sudo apt-get install docker-compose
-Confirm by checking the version
--docker-compose --version
-Run docker file
--docker-compose up
-```
-#### Check on localhost:7755 if application is running
+  cd fyle-interview-intern-backend
+# Check if docker compose is installed , or install it
+  sudo apt-get install docker-compose
+# Confirm by checking the version
+  docker-compose --version
+# Run docker file
+  docker-compose up
 
-Response : {"status":"ready","time":"Sun, 22 Sep 2024 16:11:36 GMT"} 
+# Check on localhost:7755 if Application is running 
+  Response : {"status":"ready","time":"Sun, 22 Sep 2024 16:11:36 GMT"}
+```
 
 
 **Screenshot of the TEST COVERAGE reaching 96 %.**

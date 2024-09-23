@@ -1,6 +1,6 @@
 # ASSIGNMENT COMPLETED
 
-Successfully completed the assignment received by FYLE for Backend Intern position, with a Test coverage of 96 % and all test case passing on it (SCREENSHOT is Attached below). 
+Successfully completed the assignment received by FYLE for Backend Intern position, with a Test coverage of 96 % and all test cases passing on it (SCREENSHOT is Attached below). 
 - Added missing APIs mentioned in the challenge and passed the automated test.
 - Added tests for grading API.
 - Resolved Bugs Present in the application.
@@ -12,6 +12,7 @@ Successfully completed the assignment received by FYLE for Backend Intern positi
 ```bash
   cd fyle-interview-intern-backend
 # Check if docker compose is installed , or install it
+  #on linux
   sudo apt-get install docker-compose
 # Confirm by checking the version
   docker-compose --version

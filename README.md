@@ -10,6 +10,7 @@ Successfully completed the assignment received by FYLE for Backend Intern positi
 ### Steps to run docker-compose 
 
 ```bash
+# Navigate to project directory : 
   cd fyle-interview-intern-backend
 # Check if docker compose is installed , or install it
   #on linux
@@ -36,9 +37,12 @@ Successfully completed the assignment received by FYLE for Backend Intern positi
 During the development of this assignment, I encountered several challenges, including:
 
 - **Bug Fixes:** Identified and resolved various bugs that improved application stability.
-- **Mock Unit Testing:** Implemented mock unit tests to ensure reliability, especially with the database connection.
 - **API Integration:** Added missing APIs to ensure full functionality
 - **Dockerization:** Dockerized the application to streamline deployment and improve consistency across environments.
+- **Running code on windows env:** I faced multiple challenges to start the application on windows as all commands mentioned was of linux environment, I installed docker and created 
+                                   linux env inside docker container which helped me to set it up easily.
+- **Mock Unit Testing:** While fixing unit tests, I saw that multiple tests were writing/reading the data from database, which should not be the case of unit testing. I moved towards 
+                         mocking the relevant function and classes to ensure unit tests works properly in all the scenarios.
 
 
 ## Regards
